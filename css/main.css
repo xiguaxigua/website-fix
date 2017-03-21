@@ -1,0 +1,11 @@
+/* fix node-everywhere */
+.note-anywhere {
+  height: auto;
+}
+.note-anywhere .edit {
+   height: 30px !important;
+   transition: height .3s;
+}
+.note-anywhere .edit:focus {
+   height: 190px !important;
+}
