@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "website-fixer",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "网站修复",
   "icons": {
     "16": "images/icon16.png",
@@ -12,7 +12,7 @@
     "<all_urls>"
   ],
   "content_scripts": [{
-    "matches": ["http://*/*"],
+    "matches": ["http://*/*", "https://*/*"],
     "js": ["inject.js"],
     "all_frames": true,
     "run_at": "document_start"
